@@ -13,7 +13,7 @@ SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 700
 
 # Getting background image
-BACKGROUND = pygame.transform.smoothscale(pygame.image.load("spacebg.jpg"), (SCREEN_WIDTH, SCREEN_HEIGHT))
+BACKGR1OUND = pygame.transform.smoothscale(pygame.image.load("spacebg.jpg"), (SCREEN_WIDTH, SCREEN_HEIGHT))
 
 # Loading and adding background noise
 mixer.music.load("Cipher2.mp3")
