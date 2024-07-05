@@ -12,6 +12,7 @@ pygame.init()
 SCREEN_WIDTH1 = 800
 SCREEN_HEIGHT1 = 700
 
+
 # Getting background image
 BACKGR1OUND = pygame.transform.smoothscale(pygame.image.load("spacebg.jpg"), (SCREEN_WIDTH, SCREEN_HEIGHT))
 
