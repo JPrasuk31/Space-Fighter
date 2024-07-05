@@ -13,7 +13,7 @@ SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 700
 
 # Getting background image
-BACKGROUND = pygame.transform.smoothscale(pygame.image.load("spacebg.jpg"), (SCREEN_WIDTH, SCREEN_HEIGHT))
+BACKGR1OUND = pygame.transform.smoothscale(pygame.image.load("spacebg.jpg"), (SCREEN_WIDTH, SCREEN_HEIGHT))
 
 # Loading and adding background noise
 mixer.music.load("Cipher2.mp3")
@@ -21,9 +21,12 @@ mixer.music.play(-1)
 
 # Loading Bullet and Explosion Noise
 bulletSound = mixer.Sound("laser.wav")
-explosionSound = mixer.Sound("explosion.wav")
 
-# Creating the screen
+
+explosionSound2 = mixer.Sound("explosion.wav")
+
+# Creating the scree
+# n
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
 # Setting the caption and appIcon
