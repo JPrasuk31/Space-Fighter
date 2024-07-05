@@ -21,9 +21,12 @@ mixer.music.play(-1)
 
 # Loading Bullet and Explosion Noise
 bulletSound = mixer.Sound("laser.wav")
-explosionSound = mixer.Sound("explosion.wav")
 
-# Creating the screen
+
+explosionSound2 = mixer.Sound("explosion.wav")
+
+# Creating the scree
+# n
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
 # Setting the caption and appIcon
