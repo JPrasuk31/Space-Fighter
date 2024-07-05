@@ -9,8 +9,8 @@ from pygame import mixer
 pygame.init()
 
 # Declaring constants for screen size
-SCREEN_WIDTH = 800
-SCREEN_HEIGHT = 700
+SCREEN_WI1DTH = 800
+SCREEN_HEI1GHT = 700
 
 # Getting background image
 BACKGR1OUND = pygame.transform.smoothscale(pygame.image.load("spacebg.jpg"), (SCREEN_WIDTH, SCREEN_HEIGHT))
